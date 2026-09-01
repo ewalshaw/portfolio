@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 14% 98.8%;
+    --foreground: 192 3% 19%;
+    --muted: 60 10% 95%;
+    --muted-foreground: 192 3% 42%;
+    --border: 0 0% 88%;
+    --ring: 200 34% 44%;
+    --mint: 170 40% 47%;
+    --azure: 200 34% 44%;
+    --radius: 0.5rem;
+    --font-heading: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    --font-body: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    --font-display: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-mono antialiased;
+  }
+}

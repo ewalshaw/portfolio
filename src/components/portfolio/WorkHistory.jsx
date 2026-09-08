@@ -9,9 +9,9 @@ const experiences = [
     period: "September 2026 — Present",
     location: "Toronto, ON",
     highlights: [
-      "Incoming: will support digital transformation initiatives, working with datasets and relational databases to generate insights and dashboards for technology and business decisions.",
+      "Building an AI-enabled forecasting tool in Python to improve Azure budgeting.",
     ],
-    tags: ["Current Fall 2026 Co-Op"],
+    tags: ["Python", "Forecasting", "Microsoft Azure"],
   },
   {
     role: "Software Developer Intern",

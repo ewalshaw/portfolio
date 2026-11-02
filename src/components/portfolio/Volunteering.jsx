@@ -4,6 +4,13 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const roles = [
   {
+    role: "Big CSters Mentor",
+    organization: "University of Waterloo Women in Computer Science",
+    period: "October 2026 — Present",
+    description:
+      "Mentoring three first-year students, discussing skill development, co-op, getting involved in research, and adapting to university life.",
+  },
+  {
     role: "Director of Finance",
     organization: "University of Waterloo Women in Computer Science",
     period: "May 2026 — August 2026",

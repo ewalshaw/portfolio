@@ -6,7 +6,7 @@ const links = [
   { label: "Email", href: "mailto:erinwalshaw@outlook.com", icon: Mail, accent: "azure" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/erinwalshaw/", icon: Linkedin, accent: "azure" },
   { label: "GitHub", href: "https://github.com/ewalshaw", icon: Github, accent: "azure" },
-  { label: "Resume", href: "/Erin%20Walshaw%20Resume.pdf", icon: FileText, accent: "azure" },
+  { label: "Resume", href: "/Erin%20Walshaw%20Resume%20Fall%202026.pdf", icon: FileText, accent: "azure" },
 ];
 const availableLinks = links.filter((link) => link.href);
 

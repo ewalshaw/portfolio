@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Github, ExternalLink } from "lucide-react";
 
 // Set SHOW_CURRENT_PROJECT to false to hide the in-progress project card.
-const SHOW_CURRENT_PROJECT = true;
+const SHOW_CURRENT_PROJECT = false;
 
 const currentProject = {
   name: "InsightCI",
@@ -18,6 +18,18 @@ const currentProject = {
 };
 
 const projects = [
+  {
+    name: "C++ HTTP Server",
+    highlights: [
+      "Built a C++ HTTP server from scratch on Winsock that opens a TCP port and answers requests for /, /time, /hello-world, /health, and /values.",
+      "/ returns a greeting, /time returns the current time, /hello-world returns ASCII art, /health returns status, port, and uptime, /values returns query-string values, and any other path returns Not Found.",
+      "Separates query string from path, so /time?x=1 still returns the current time. /values?x=1&y=2 shows x = 1 and y = 2 on separate lines.",
+    ],
+    github: "https://github.com/ewalshaw/http-server",
+    demo: "",
+    youtubeId: "",
+    tags: ["C++", "http", "winsock"],
+  },
   {
     name: "TinyIR",
     highlights: [

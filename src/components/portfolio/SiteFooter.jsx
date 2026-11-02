@@ -5,7 +5,7 @@ const contactLinks = [
   { label: "Email", display: "erinwalshaw@outlook.com", href: "mailto:erinwalshaw@outlook.com", icon: Mail },
   { label: "LinkedIn", display: "linkedin.com/in/erinwalshaw", href: "https://www.linkedin.com/in/erinwalshaw/", icon: Linkedin },
   { label: "GitHub", display: "github.com/ewalshaw", href: "https://github.com/ewalshaw", icon: Github },
-  { label: "Resume", display: "Erin Walshaw Resume.pdf", href: "/Erin%20Walshaw%20Resume.pdf", icon: FileText },
+  { label: "Resume", display: "Erin Walshaw Resume Fall 2026.pdf", href: "/Erin%20Walshaw%20Resume%20Fall%202026.pdf", icon: FileText },
 ].filter((link) => link.href);
 
 export default function SiteFooter() {
